@@ -7,7 +7,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          QMFS!
+          QUEEN MARY FORMULA STUDENT PAGE
         </p>
         <a
           className="App-link"
