@@ -19,10 +19,10 @@ const Navbar = () => {
           <Link to="/about">ABOUT US</Link>
         </li>
         <li>
-          <Link to="/about">OUR TEAM</Link>
+          <Link to="/team">OUR TEAM</Link>
         </li>
         <li>
-          <Link to="/about">OUR ACHIEVEMENTS</Link>
+          <Link to="/achievements">OUR ACHIEVEMENTS</Link>
         </li>
         <li>
           <Link to="/about">OUR CARS</Link>
