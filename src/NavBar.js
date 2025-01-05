@@ -5,7 +5,7 @@ import qmfslogo from './logo_qmfs.png'
 
 const Navbar = () => {
   return (
-    <nav className="navbar">
+    <nav className="navbar" style={{position: 'fixed', width: '100%'}}>
       <div className="navbar-logo">
         <Link to="/">
             <img src={qmfslogo} className="qmfs-logo-navbar" alt="logo" />
@@ -25,10 +25,10 @@ const Navbar = () => {
           <Link to="/achievements">OUR ACHIEVEMENTS</Link>
         </li>
         <li>
-          <Link to="/about">OUR CARS</Link>
+          <Link to="/cars">OUR CARS</Link>
         </li>
         <li>
-          <Link to="/about">PARTNERS</Link>
+          <Link to="/partners">PARTNERS</Link>
         </li>
       </ul>
     </nav>
