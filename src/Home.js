@@ -1,5 +1,5 @@
 import logo from './logo_qmfs.png';
-import './Home.css';
+import './App.css';
 
 function Home(){
 
