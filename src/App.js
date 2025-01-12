@@ -1,6 +1,6 @@
 import logo from './logo_qmfs.png';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import './App.css';
+// import './App.css';
 import Home from './Home';
 import About from './About';
 import Team from './Team';

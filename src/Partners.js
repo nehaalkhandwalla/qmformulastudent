@@ -2,7 +2,7 @@ import './Partners.css';
 
 function Partners(){
     return(
-    <div>
+    <div className='Partners'>
         HERE ARE OUR PARTNERS!!
     </div>
     );
