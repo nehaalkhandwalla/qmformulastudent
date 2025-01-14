@@ -4,7 +4,7 @@ import './About.css';
 function About() {
     return(
     <div className='About'>
-        <h2>
+        <h2 className='Heading'>
             About us
         </h2>
         <p>Founded in 2016 and situated within Queen Mary's University of London Mile End campus, QMFS is a London based, student-run racing society that competes against other university teams yearly at Silverstone in Formula Student UK. Our team prides itself on its diversity, bringing together students from various backgrounds and disciplines.</p>
