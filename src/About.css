@@ -4,8 +4,10 @@
     font-size: 3em;
     color: black;
     font-family:  "Helvetica W01 Light" ;
+    text-align: center;
+    /* width: 20em; */
 }
 
-.Heading{
+/* .Heading{
     text-align: center;
-}
+} */
