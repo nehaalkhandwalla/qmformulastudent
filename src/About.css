@@ -1,11 +1,11 @@
 
 .About{
-    /* background-color: yellow; */
-    font-size: 3em;
+    font-size: 1em;
     color: black;
     font-family:  "Helvetica W01 Light" ;
     text-align: center;
-    /* width: 20em; */
+    width: 90vw;
+    padding-left: 2em;
 }
 
 /* .Heading{
