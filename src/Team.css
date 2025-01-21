@@ -11,4 +11,5 @@
 .Heading{
     color: rgb(255, 100, 4);
     font:bold;
+    text-transform: uppercase;
 }
