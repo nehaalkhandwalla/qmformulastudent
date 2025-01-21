@@ -1,13 +1,18 @@
 
 .About{
-    font-size: 1em;
-    color: black;
-    font-family:  "Helvetica W01 Light" ;
-    text-align: center;
-    width: 90vw;
-    padding-left: 2em;
+    display:flex;
+    justify-content: center;
 }
 
-/* .Heading{
+.top-section{
+    font-size: 1em;
+    color: black;
     text-align: center;
-} */
+    width: 70vw;
+
+}
+
+p{
+    text-align: justify;
+    font-family:  "Helvetica W01 Light" ;
+}
