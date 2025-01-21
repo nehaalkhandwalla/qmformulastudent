@@ -17,18 +17,18 @@ img{
 
   }
   
-  .navbar-links {
+  .nav-links {
     list-style-type: none;
     display: flex;
     margin: 0;
     align-items: center;
   }
   
-  .navbar-links li {
+  .nav-links li {
     margin: 0 15px;
   }
   
-  .navbar-links a {
+  .nav-links a {
     color: white;
     text-decoration: none;
     font-size: 18px;
@@ -42,3 +42,35 @@ img{
     height: 4em;
   }
   
+  .hamburger {
+    display: none;
+    font-size: 1.5em;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+  }
+  
+  /* Media query for small screens */
+  @media (max-width: 800px) {
+    .nav-links {
+      display: none;
+      flex-direction: column;
+      width: 100%;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      background-color: #333;
+    }
+  
+    .nav-links.active {
+      display: flex;
+      /* list-style-type: none;
+      margin: 0;
+      align-items: center; */
+    }
+  
+    .hamburger {
+      display: block;
+    }
+  }
