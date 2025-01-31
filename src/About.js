@@ -1,9 +1,9 @@
 import React from 'react';
-import './About.css';
+import './App.css';
 
 function About() {
     return(
-    <div className='About'>
+    <div className='About' id='page'>
         <div className='top-section'>
             <h2 className='Heading'>
                 About us

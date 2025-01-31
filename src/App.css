@@ -1,3 +1,4 @@
+
 .App {
   text-align: center;
 }
@@ -5,6 +6,23 @@
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+.Heading{
+  color: rgb(255, 100, 4);
+  font:bold;
+  text-transform: uppercase;
+}
+
+div #page{
+  display:flex;
+  justify-content: center;
+  padding-top: 7em;
+}
+
+p {
+  text-align: justify;
+  font-family:  "Helvetica W01 Light" ;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -37,3 +55,24 @@
   }
 }
 
+
+/* TEAM PAGE */
+.Team{
+  /* background-color: yellow; */
+  font-size: 1em;
+  color: black;
+  font-family:  "Helvetica W01 Light" ;
+  text-align: center;
+  width: 90vw;
+  padding-left: 2em;
+}
+
+
+/* ABOUT PAGE */
+.top-section{
+  font-size: 1em;
+  color: black;
+  text-align: center;
+  width: 70vw;
+
+}
