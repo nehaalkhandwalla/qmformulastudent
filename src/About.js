@@ -1,9 +1,9 @@
 import React from 'react';
 import './App.css';
 
-function About() {
+const About = () => {
     return(
-    <div className='About' id='page'>
+
         <div className='top-section'>
             <h2 className='Heading'>
                 About us
@@ -16,6 +16,7 @@ function About() {
                 <p>In addition to hands-on experience in designing and building race cars, we have recently ventured into the world of sim racing. 2023 was the team's first time participating in the championship and we secured 9th out of 55 teams.</p>
             </div>
         </div>
-    </div>
+
     );
-}export default About;
+}
+export default About;
