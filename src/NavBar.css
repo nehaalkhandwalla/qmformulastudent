@@ -1,9 +1,11 @@
 .navbar {
-    background-color: #000000;
+    background-color: #851818;
     display: flex;
-    /* justify-content: space-around; */
+    justify-content: space-between;
     margin-bottom: 200px;
     position: fixed;
+    height: 3em;
+    padding-top: 3em;
     /* padding: 10px 20px; */
   }
   
@@ -12,7 +14,9 @@ img{
 }
 
 ul{
+  width: 100%;
   border: 1px solid red;
+  justify-content: baseline;
 
 }
 
@@ -20,6 +24,7 @@ ul{
     color: white;
     font-size: 24px;
     text-decoration: none;
+    margin-top: -1.8em;
     /* border: 1px solid red; */
 
   }

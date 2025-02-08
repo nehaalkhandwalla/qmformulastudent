@@ -1,4 +1,3 @@
-import logo from './logo_qmfs.png';
 import {React, useState, useEffect} from 'react';
 import './App.css';
 import About from './About';
@@ -9,7 +8,7 @@ function Home(){
 
       <div className="App">
         <header className="App-header">
-          <img src={teamimg} className="App-logo" alt="2024 team" />
+          <img src={teamimg} className="team-image" alt="2024 team"  />
         </header>
         <div className="App-body">
           <About />
