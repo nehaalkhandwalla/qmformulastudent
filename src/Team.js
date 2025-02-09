@@ -1,11 +1,11 @@
 import React from 'react';
-import './App.css'
+import './App.css';
 
 function Team() {
     return(
     <div className="Team" id='page'>
         <div className="top-section">
-        <h2 className="Heading">
+        <h2 className='Heading'>
             Meet the Senior Team!
         </h2>
         <p>

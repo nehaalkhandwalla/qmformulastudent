@@ -7,8 +7,8 @@ function Home(){
   return(
 
       <div className="App">
-        <header className="App-header">
-          <img src={teamimg} className="team-image" alt="2024 team"  />
+        <header className="App-header" id='home'>
+          <img src={teamimg} className="team-image" alt="2024 team" />
         </header>
         <div className="App-body">
           <About />
