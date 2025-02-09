@@ -1,7 +1,7 @@
 .navbar {
     background-color: #851818;
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     margin-bottom: 200px;
     position: fixed;
     height: 3em;
@@ -15,8 +15,8 @@ img{
 
 ul{
   width: 100%;
-  border: 1px solid red;
-  justify-content: baseline;
+  /* border: 1px solid red; */
+  justify-content: space-evenly;
 
 }
 
