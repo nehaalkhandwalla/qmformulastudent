@@ -1,6 +1,6 @@
 import {React, useState, useEffect} from 'react';
 import { Link } from 'react-router-dom';
-import './NavBar.css'; // Assuming you will style it in a separate CSS file
+import './App.css'; // Assuming you will style it in a separate CSS file
 import qmfslogo from '../src/assets/logo_qmfs.png';
 
 function Navbar(){
