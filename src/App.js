@@ -8,6 +8,7 @@ import Cars from './Cars';
 import Partners from './Partners';
 import Layout from './Layout';
 import Navbar from './NavBar';
+import Footer from './Footer';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Route path="/cars" element={<Cars />} />
         <Route path="/partners" element={<Partners />} />
       </Routes>
+      <Footer/>
     </Router>
   );
 }
