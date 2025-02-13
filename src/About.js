@@ -3,7 +3,7 @@ import './App.css';
 
 const About = () => {
     return(
-        <div id='page'>
+        <section className='About' id='page'>
         <div className='top-section' >
             <h2 className='Heading'>
                 About us
@@ -16,7 +16,7 @@ const About = () => {
                 <p>In addition to hands-on experience in designing and building race cars, we have recently ventured into the world of sim racing. 2023 was the team's first time participating in the championship and we secured 9th out of 55 teams.</p>
             </div>
         </div>
-        </div>
+        </section>
     );
 }
 export default About;

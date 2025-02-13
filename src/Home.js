@@ -10,9 +10,10 @@ function Home(){
         <header className="App-header" id='home'>
           <img src={teamimg} className="team-image" alt="2024 team" />
         </header>
-        <div className="App-body">
+        <section className="App-body">
           <About />
-        </div>
+        </section>
+        
       </div>
   );
 

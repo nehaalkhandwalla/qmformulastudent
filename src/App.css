@@ -53,11 +53,17 @@ p {
   color: white;
 }
 
+section{
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+}
+
 .App-body{
-  background-color: #dedede;
+  /* background-color: #dedede;
   min-height: 100vh;
   display: flex;
-  flex-direction: column;
+  flex-direction: column; */
   /* align-items: center; */
   /* justify-content: center; */
   /* font-size: calc(10px + 2vmin); */
