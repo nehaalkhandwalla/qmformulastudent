@@ -55,10 +55,28 @@ p {
 }
 
 section{
+
   display: flex;
-  justify-content: center;
-  /* min-height: 100vh; */
+  /* justify-content: center; */
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  /* min-height: 100vh;*/
+  padding: 2em;
 }
+
+/* if less than 600px, make the section flex-direction column */
+@media (max-width: 800px){
+  section{
+    flex-direction: column;
+  }
+}
+
+.spacer{
+  padding: 2em;
+  width: 50vw;
+}
+
 
 /* if visited link, make orange */
 a:visited{
@@ -200,5 +218,5 @@ justify-content: space-evenly;
   font-size: 1em;
   color: black;
   text-align: center;
-  width: 50vw;
+  width: 70vw;
 }
