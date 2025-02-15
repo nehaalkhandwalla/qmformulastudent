@@ -4,6 +4,7 @@
   --font-headings: 'Bebas Neue', sans-serif;
   --font-body: 'Rajdhani', sans-serif;
   --fontsize-headings: 2em;
+  --main-colour: rgb(255, 100, 4);
 
 }
 
@@ -18,7 +19,7 @@
 
 .Heading{
   font-family: var(--font-headings);
-  color: rgb(255, 100, 4);
+  color: var(--main-colour);
   font:bold;
   text-transform: uppercase;
   font-size: var(--fontsize-headings);
@@ -56,7 +57,12 @@ p {
 section{
   display: flex;
   justify-content: center;
-  min-height: 100vh;
+  /* min-height: 100vh; */
+}
+
+/* if visited link, make orange */
+a:visited{
+  color: var(--main-colour);
 }
 
 .App-body{

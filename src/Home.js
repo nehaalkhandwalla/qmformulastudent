@@ -1,6 +1,7 @@
 import {React, useState, useEffect} from 'react';
 import './App.css';
 import About from './About';
+import FSintro from './FSintro';
 import teamimg from './assets/QMFS_2024_team.png';
 
 function Home(){
@@ -13,7 +14,9 @@ function Home(){
         <section className="App-body">
           <About />
         </section>
-        
+        <section className="App-body">
+          <FSintro />
+        </section>
       </div>
   );
 
