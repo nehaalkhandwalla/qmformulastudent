@@ -220,3 +220,16 @@ justify-content: space-evenly;
   text-align: center;
   width: 70vw;
 }
+
+/* team grid  */
+.team-grid{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-gap: 1em;
+  padding: 2em;
+}
+
+/* make the team member images a good size */
+.team-member-image{
+  height: 2em;
+}

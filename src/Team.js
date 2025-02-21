@@ -1,5 +1,7 @@
 import React from 'react';
 import './App.css';
+// import the photos
+import photos from './assets/photos';
 
 function Team() {
     return(
@@ -14,22 +16,23 @@ function Team() {
         {/* create a grid of team members with their names and roles */}
         <div className="team-grid">
             <div className="team-member">
-                <img src="https://via.placeholder.com/150" alt="team member" />
-                <p>John Doe</p>
-                <p>Team Lead</p>
+            {/* from photos, show the first photo */}
+            <img src={photos.Anastacia} alt="team member" id='team_member_img' />
+                <p>Anastacia Ogilvie</p>
+                <p>Team Principal</p>
             </div>
             <div className="team-member">
-                <img src="https://via.placeholder.com/150" alt="team member" />
+                <img src="https://via.placeholder.com/150" alt="team member" className='team_member_img'/>
                 <p>Jane Doe</p>
                 <p>Deputy Team Lead</p>
             </div>
             <div className="team-member">
-                <img src="https://via.placeholder.com/150" alt="team member" />
+                <img src="https://via.placeholder.com/150" alt="team member" id='team_member_img'/>
                 <p>John Smith</p>
                 <p>Head of Design</p>
             </div>
             <div className="team-member">
-                <img src="https://via.placeholder.com/150" alt="team member" />
+                <img src="https://via.placeholder.com/150" alt="team member"id='team_member_img' />
                 <p>Jane Smith</p>
                 <p>Head of Business</p>
             </div>
