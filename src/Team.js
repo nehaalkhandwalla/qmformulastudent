@@ -17,7 +17,7 @@ function Team() {
         <div className="team-grid">
             <div className="team-member">
             {/* from photos, show the first photo */}
-            <img src={photos.Anastacia} alt="team member" id='team_member_img' />
+            <img src={photos.Anastacia} alt="team member" className='team_member_img' />
                 <p>Anastacia Ogilvie</p>
                 <p>Team Principal</p>
             </div>
