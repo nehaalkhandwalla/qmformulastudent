@@ -227,18 +227,21 @@ justify-content: space-evenly;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   grid-gap: 1em;
   padding: 2em;
-  border: 1px solid red;
+  border: 1px solid var(--main-colour);
 }
 
 /* make the team member images a good size */
 .team-member{
   /* height: 0.2em; */
-  border: 1px solid red;
+  /* border: 1px solid red; */
+  border-radius: 5px;
+  background-color: #f6f6f6;
+  padding: 1em;
 }
 
 .team_member_img {
   width: 150px;  /* Set the width */
   height: 150px; /* Set the height */
   object-fit: cover; /* Ensures the image maintains aspect ratio */
-  /* border-radius: 8px; Optional: Adds rounded corners */
+  border-radius: 8px;
 }

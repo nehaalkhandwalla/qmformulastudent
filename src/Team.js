@@ -22,9 +22,9 @@ function Team() {
                 <p>Team Principal</p>
             </div>
             <div className="team-member">
-                <img src="https://via.placeholder.com/150" alt="team member" className='team_member_img'/>
-                <p>Jane Doe</p>
-                <p>Deputy Team Lead</p>
+            <img src={photos.Titouan} alt="team member" className='team_member_img' />
+                <p>Titouan Reynaud</p>
+                <p>EV Chief Engineer</p>
             </div>
             <div className="team-member">
                 <img src="https://via.placeholder.com/150" alt="team member" id='team_member_img'/>
