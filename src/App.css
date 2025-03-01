@@ -243,5 +243,10 @@ justify-content: space-evenly;
   width: 150px;  /* Set the width */
   height: 150px; /* Set the height */
   object-fit: cover; /* Ensures the image maintains aspect ratio */
-  border-radius: 8px;
+  /* border-radius: 8px; */
+}
+
+/* make the p tags prange where the id is team-member */
+.team-role{
+  color: var(--main-colour);
 }
