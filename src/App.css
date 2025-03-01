@@ -157,8 +157,8 @@ justify-content: space-evenly;
   font-size: 18px;
 }
 
-.navbar-links a:hover {
-  color: #ddd;
+.nav-links a:hover {
+  color: var(--main-colour);
 }
 
 .qmfs-logo-navbar{
