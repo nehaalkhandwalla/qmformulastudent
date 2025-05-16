@@ -1,0 +1,176 @@
+/* 
+  Achievements page styling with vertical timeline 
+  Uses the site's main color scheme and fonts
+*/
+
+/* Make sure timeline is below the navbar */
+.Achievements {
+  position: relative;
+  z-index: 1; /* Lower than navbar */
+}
+
+.timeline-container {
+  position: relative;
+  max-width: 1000px;
+  margin: 2em auto;
+  padding: 2em 0;
+}
+
+/* Main vertical line */
+.timeline-line {
+  position: absolute;
+  width: 4px;
+  background-color: var(--main-colour); /* Use the site's main orange color */
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  margin-left: -2px;
+  z-index: 0;
+}
+
+/* Year group container */
+.timeline-year-group {
+  position: relative;
+  margin-bottom: 80px;
+  width: 100%;
+}
+
+/* Year marker on the timeline */
+.year-marker {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-color: var(--main-colour);
+  border: 4px solid white;
+  border-radius: 50%;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 20px;
+  z-index: 1;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Individual timeline items */
+.timeline-item {
+  position: relative;
+  width: 45%;
+  margin-bottom: 30px;
+  margin-top: 50px;
+}
+
+/* Date marker */
+.timeline-date {
+  position: absolute;
+  width: 120px;
+  padding: 10px;
+  background-color: #000000;
+  color: white;
+  font-family: var(--font-headings);
+  font-size: 1.2em;
+  text-align: center;
+  left: 50%;
+  top: 15px;
+  transform: translateX(-50%);
+  border-radius: 4px;
+  z-index: 2;
+}
+
+/* Content boxes for timeline items */
+.timeline-content {
+  position: relative;
+  padding: 20px;
+  background-color: #f6f6f6;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+}
+
+/* Clearfix for proper float handling */
+.clearfix {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+/* Left side positioning */
+.timeline-item.left {
+  float: left;
+  padding-right: 30px; /* Make sure content touches the line but doesn't overlap */
+}
+
+/* Right side positioning */
+.timeline-item.right {
+  float: right;
+  padding-left: 30px; /* Make sure content touches the line but doesn't overlap */
+  margin-left: auto;
+}
+
+/* Style headings inside timeline content */
+.timeline-content h3 {
+  color: var(--main-colour);
+  font-family: var(--font-headings);
+  margin-top: 0;
+  font-size: 1.5em;
+}
+
+/* Multiple achievements within a year */
+.timeline-year-group:nth-child(odd) .timeline-item:nth-child(odd) {
+  float: left;
+}
+
+.timeline-year-group:nth-child(odd) .timeline-item:nth-child(even) {
+  float: right;
+}
+
+.timeline-year-group:nth-child(even) .timeline-item:nth-child(odd) {
+  float: right;
+}
+
+.timeline-year-group:nth-child(even) .timeline-item:nth-child(even) {
+  float: left;
+}
+
+/* Responsive design for smaller screens */
+@media screen and (max-width: 800px) {
+  .timeline-line {
+    left: 30px;
+  }
+  
+  .timeline-year-group {
+    margin-left: 30px;
+  }
+  
+  .timeline-item.left,
+  .timeline-item.right {
+    width: calc(100% - 80px);
+    float: right;
+    padding-left: 50px;
+    padding-right: 0;
+  }
+  
+  .timeline-date {
+    left: 30px;
+    width: 100px;
+    transform: translateX(-50%);
+  }
+  
+  .year-marker {
+    left: 30px;
+    transform: translateX(-50%);
+  }
+  
+  .timeline-item.left .timeline-content:after,
+  .timeline-item.right .timeline-content:after {
+    left: -10px;
+    right: auto;
+    border-left: 0;
+    border-right: 10px solid #f6f6f6;
+  }
+  
+  .timeline-year-group:nth-child(odd) .timeline-item:nth-child(even),
+  .timeline-year-group:nth-child(even) .timeline-item:nth-child(odd),
+  .timeline-year-group:nth-child(even) .timeline-item:nth-child(even),
+  .timeline-year-group:nth-child(odd) .timeline-item:nth-child(odd) {
+    float: right;
+  }
+} 
