@@ -1,0 +1,89 @@
+.contact-section {
+    padding: 4em 2em;
+    text-align: center;
+}
+
+.contact-section .Heading {
+    margin-bottom: 1em;
+}
+
+.map-container {
+    margin-bottom: 3em;
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.contact-details {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    gap: 3em;
+}
+
+.enquiries, .address-info {
+    flex: 1;
+}
+
+.enquiries h3, .address-info h3 {
+    font-family: var(--font-headings);
+    font-size: 1.8em;
+    color: var(--main-colour);
+    text-transform: uppercase;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.contact-form input,
+.contact-form textarea {
+    padding: 0.8em;
+    border: 1px solid var(--main-colour);
+    border-radius: 4px;
+    font-family: var(--font-body);
+    font-size: 1em;
+}
+
+.contact-form button {
+    background-color: var(--main-colour);
+    color: white;
+    border: none;
+    padding: 0.8em 1.5em;
+    border-radius: 4px;
+    font-family: var(--font-headings);
+    font-size: 1.2em;
+    cursor: pointer;
+    align-self: flex-start;
+    transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+    background-color: #333;
+}
+
+.address-info p {
+    line-height: 1.6;
+}
+
+.email-info {
+    margin-top: 2em;
+}
+
+.email-info a {
+    font-family: var(--font-body);
+    font-size: 1.2em;
+    color: #333;
+    text-decoration: none;
+}
+
+.email-info a:hover {
+    color: var(--main-colour);
+}
+
+@media (max-width: 800px) {
+    .contact-details {
+        flex-direction: column;
+    }
+} 

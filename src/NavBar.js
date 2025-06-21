@@ -1,5 +1,6 @@
 import {React, useState, useEffect} from 'react';
 import { Link } from 'react-router-dom';
+import { HashLink } from 'react-router-hash-link';
 import './App.css'; // Assuming you will style it in a separate CSS file
 import qmfslogo from '../src/assets/logo_qmfs.png';
 
@@ -20,10 +21,10 @@ function Navbar(){
               <img src={qmfslogo} className="qmfs-logo-navbar" alt="logo"/>
         </div>
         <li>
-          <Link to="/">HOME</Link>
+          <HashLink smooth to="/#home">HOME</HashLink>
         </li>
         <li>
-          <Link to="/about">ABOUT US</Link>
+          <HashLink smooth to="/#about">ABOUT US</HashLink>
         </li>
         <li>
           <Link to="/team">OUR TEAM</Link>
@@ -36,6 +37,9 @@ function Navbar(){
         </li>
         <li>
           <Link to="/partners">PARTNERS</Link>
+        </li>
+        <li>
+          <HashLink smooth to="/#contact">CONTACT</HashLink>
         </li>
       </ul>
     </nav>

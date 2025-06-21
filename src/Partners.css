@@ -1,5 +1,49 @@
-.Partners{
-    background-color: green;
-    font-size: 3em;
-    color: blue;
+.partners-section {
+    padding: 4em 2em;
+    text-align: center;
+}
+
+.partners-section .Heading {
+    margin-bottom: 2em;
+}
+
+.partners-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 4em;
+}
+
+.partners-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3em;
+}
+
+.partner-logo-link {
+    display: block;
+    transition: transform 0.3s ease;
+}
+
+.partner-logo-link:hover {
+    transform: scale(1.05);
+}
+
+.partner-logo {
+    max-width: 300px;
+    height: auto;
+    filter: grayscale(100%);
+    transition: filter 0.3s ease;
+}
+
+.partner-logo-link:hover .partner-logo {
+    filter: grayscale(0%);
+}
+
+@media (max-width: 800px) {
+    .partners-container {
+        flex-direction: column;
+        align-items: center;
+    }
 }
