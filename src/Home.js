@@ -4,7 +4,7 @@ import About from './About';
 import FSintro from './FSintro';
 import Contact from './Contact';
 import teamimg from './assets/QMFS_2024_team.png';
-import gekko from './assets/gekko.jpeg';
+// import gekko from './assets/gekko.jpeg';
 
 function Home(){
   return(
@@ -18,7 +18,7 @@ function Home(){
           <About />
           </div>
           <div className="spacer">
-          <img src={gekko} className="gekko-image" alt="2024 team" />
+          <img src={teamimg} className="team-image" alt="2024 team" />
           </div>
         </section>
         <section className="App-body" style={{paddingTop: 0}}>
